@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
@@ -11,49 +11,67 @@
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
       rel="stylesheet"
     />
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="header-container">
-            <div class="header-text">
-                <div class="welcome-text-container">
-                    <h1 class="welcome-text">Hello</h1>
-                </div>
-                <div class="welcome-text-container">
-                    <h1 class="welcome-text">I'm Sergio</h1>
-                </div>
-            </div>
-            <div class="header-image">
-                <img src="images/SGA-sign-bg.png" class="SGA-sign-bg">
-            </div>
+      <div class="header-container">
+        <div class="header-text">
+          <div class="welcome-text-container">
+            <h1 class="welcome-text">Hello</h1>
+          </div>
+          <div class="welcome-text-container">
+            <h1 class="welcome-text">I'm Sergio</h1>
+          </div>
         </div>
-        <div class="rep-container">
-            <div class="header-title-container">
-                <h1 class="header-title">My representation.</h1>
-            </div>
-            <div class="rep-cards-container">
-                <div class="card about-me">
-                    <h2>About Me</h2>
-                    <p>Learn more about me.</p>
-                </div>
-                <div class="card work-tools-projects">
-                    <h2>Work Tools</h2>
-                    <p>Take a look at my work tools.</p>
-                </div>
-                <div class="card js-projects">
-                    <h2>JS Projects</h2>
-                    <p>Have a look at my JS projects.</p>
-                </div>
-                <div class="card php-projects">
-                    <h2>PHP Projects</h2>
-                    <p>Check out my PHP projects.</p>
-                </div>
-                <div class="card mobile-projects">
-                    <h2>Mobile Projects</h2>
-                    <p>Check out my Mobile projects.</p>
-                </div>
-            </div>
+        <div class="header-image">
+          <img src="images/SGA-sign-bg.png" class="SGA-sign-bg" />
         </div>
+      </div>
+      <div class="rep-container">
+        <div class="header-title-container">
+          <h1 class="header-title">My representation.</h1>
+        </div>
+        <div class="rep-cards-container">
+          <div class="card about-me">
+            <h2>About Me</h2>
+            <p>Learn more about me.</p>
+          </div>
+          <div class="card work-tools-projects">
+            <h2>Work Tools</h2>
+            <p>Take a look at my work tools.</p>
+          </div>
+          <div class="card js-projects">
+            <h2>JS Projects</h2>
+            <p>Have a look at my JS projects.</p>
+          </div>
+          <div class="card php-projects">
+            <h2>PHP Projects</h2>
+            <p>Check out my PHP projects.</p>
+          </div>
+          <div class="card mobile-projects">
+            <h2>Mobile Projects</h2>
+            <p>Check out my Mobile projects.</p>
+          </div>
+        </div>
+        <div class="carousel-buttons">
+          <button class="carousel-button left-button">&#8249;</button>
+          <button class="carousel-button right-button">&#8250;</button>
+        </div>
+      </div>
     </div>
-</body>
+
+    <script>
+      const leftButton = document.querySelector(".left-button");
+      const rightButton = document.querySelector(".right-button");
+      const cardsContainer = document.querySelector(".rep-cards-container");
+
+      leftButton.addEventListener("click", () => {
+        cardsContainer.scrollBy({ left: -300, behavior: "smooth" });
+      });
+
+      rightButton.addEventListener("click", () => {
+        cardsContainer.scrollBy({ left: 300, behavior: "smooth" });
+      });
+    </script>
+  </body>
 </html>

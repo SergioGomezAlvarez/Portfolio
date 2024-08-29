@@ -72,6 +72,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding-top: 80px;
     width: 65%;
     height: 100px;
 }
@@ -172,7 +173,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 90vh;
+    height: 150vh;
     padding-top: 50px;
     background-color: #F5F5FF;
     font-family: "Mulish", sans-serif;
@@ -277,5 +278,49 @@
 }
 
 .react-native-image {
-    width: 6%;
+    height: 10%;
+}
+
+.app-exp-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+}
+
+.exp-container{
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    height: 30vh;
+    border-radius: 32px;
+    background-color: white;
+}
+
+.logo-exp-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: rebeccapurple;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.text-exp-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+    background-color: #36D1DC;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.text-exp{
+    font-size: 1.5rem;
 }

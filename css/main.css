@@ -60,7 +60,6 @@
     align-items: center;
     width: 100%;
     height: 90vh;
-    background-color: white;
     font-family: "Mulish", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -84,13 +83,17 @@
     width: 65%;
     gap: 30px;
     margin-bottom: 20px;
-    padding: 10px 0;
+    padding: 20px 0;
     scrollbar-width: none;
     -ms-overflow-style: none;
 }
 
 .rep-cards-container::-webkit-scrollbar {
     display: none;
+}
+
+.card-link {
+    text-decoration: none;
 }
 
 .card {
@@ -109,6 +112,21 @@
     background-repeat: no-repeat;
     position: relative;
     overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1.0s ease-out, transform 1.0s ease-out;
+}
+
+.card.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Hover effect for scaling the card */
+.card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
 .card h2 {
@@ -167,6 +185,7 @@
 .carousel-button:hover {
     background-color: rgba(0, 0, 0, 0.3);
 }
+
 
 .tools-container {
     display: flex;
@@ -296,6 +315,7 @@
     width: 22%;
     height: 30vh;
     border-radius: 32px;
+    border: solid black 1px;
     background-color: white;
 }
 
@@ -430,7 +450,7 @@
     height: 40vh;
 }
 
-.footer-container{
+.footer-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -440,7 +460,7 @@
     background-color: #F5F5FF;
 }
 
-.c-text-container{
+.c-text-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -455,12 +475,12 @@
     font-size: 0.5rem;
 }
 
-.footer-icons-container{
+.footer-icons-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 25%;
+    width: 15%;
     height: 5vh;
-    background-color: #667EEA;
+    gap: 40px;
 }

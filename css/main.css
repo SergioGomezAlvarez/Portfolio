@@ -484,3 +484,29 @@
     height: 5vh;
     gap: 40px;
 }
+
+@media (min-width: 724px) and (max-width: 1440px) {
+
+    .card {
+        min-width: 150px;
+        height: 319px;
+    }
+}
+
+@media (min-width: 724px) and (max-width: 1640px) {
+
+    .card {
+        min-width: 220px;
+        height: 350px;
+    }
+
+    .rep-cards-container{
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .carousel-buttons{
+        margin-top: 0px;
+        padding-bottom: 40px;
+    }
+}

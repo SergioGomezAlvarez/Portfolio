@@ -114,7 +114,7 @@ body {
 }
 
 .card.about-me {
-    background-image: url('/images/test-picture.jpg');
+    background-image: url('/images/sga-book.png');
 }
 
 .card.work-tools-projects {
@@ -158,4 +158,26 @@ body {
 
 .carousel-button:hover {
     background-color: #515151;
+}
+
+@media (min-width: 724px) and (max-width: 1640px) {
+
+    .card {
+        min-width: 280px;
+        height: 450px;
+    }
+
+    .rep-container{
+        height: 120vh;
+    }
+
+    .rep-cards-container{
+        height: 76vh;
+        overflow: hidden;
+    }
+
+    .carousel-buttons{
+        margin-top: 0px;
+        padding-bottom: 40px;
+    }
 }

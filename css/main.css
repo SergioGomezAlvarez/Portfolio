@@ -496,8 +496,12 @@
 @media (min-width: 724px) and (max-width: 1640px) {
 
     .card {
-        min-width: 220px;
-        height: 350px;
+        min-width: 280px;
+        height: 450px;
+    }
+
+    .rep-container{
+        height: 120vh;
     }
 
     .rep-cards-container{
@@ -508,5 +512,40 @@
     .carousel-buttons{
         margin-top: 0px;
         padding-bottom: 40px;
+    }
+
+    .tools-container{
+        height: 170vh;
+    }
+
+    .skill-bar{
+        width: 45%;
+    }
+
+    .framework-icons{
+        align-items: center;
+    }
+
+    .small-section-text-container-right{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 65%;
+    }
+
+    .text-exp{
+        font-size: 1rem;
+    }
+
+    .fa-custom{
+        font-size: 2.2rem;
+    }
+    .ad-desc-text{
+        font-size: 0.8rem;
+    }
+
+    .contact-info-container{
+        gap: 30px;
     }
 }

@@ -118,7 +118,7 @@ body {
 }
 
 .card.work-tools-projects {
-    background-image: url('/images/test-picture.jpg');
+    background-image: url('/images/lightbulb-gradient-bg.png');
 }
 
 .card.js-projects {
@@ -126,7 +126,7 @@ body {
 }
 
 .card.php-projects {
-    background-image: url('/images/test-picture.jpg');
+    background-image: url('/images/chart-gradient-bg.png');
 }
 
 .card.mobile-projects {

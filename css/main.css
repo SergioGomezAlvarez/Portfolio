@@ -500,33 +500,33 @@
         height: 450px;
     }
 
-    .rep-container{
+    .rep-container {
         height: 120vh;
     }
 
-    .rep-cards-container{
+    .rep-cards-container {
         height: 100vh;
         overflow: hidden;
     }
 
-    .carousel-buttons{
+    .carousel-buttons {
         margin-top: 0px;
         padding-bottom: 40px;
     }
 
-    .tools-container{
+    .tools-container {
         height: 170vh;
     }
 
-    .skill-bar{
+    .skill-bar {
         width: 45%;
     }
 
-    .framework-icons{
+    .framework-icons {
         align-items: center;
     }
 
-    .small-section-text-container-right{
+    .small-section-text-container-right {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -534,18 +534,19 @@
         width: 65%;
     }
 
-    .text-exp{
+    .text-exp {
         font-size: 1rem;
     }
 
-    .fa-custom{
+    .fa-custom {
         font-size: 2.2rem;
     }
-    .ad-desc-text{
+
+    .ad-desc-text {
         font-size: 0.8rem;
     }
 
-    .contact-info-container{
+    .contact-info-container {
         gap: 30px;
     }
 }

@@ -30,7 +30,14 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-.weather-app-header-title-container {
+.header-title-sb{
+    font-size: 3.5rem;
+    background: linear-gradient(to right, #18216e, #3351d6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.project-header-title-container {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -39,12 +46,12 @@ body {
     padding-top: 190px;
 }
 
-.weather-app-header-title {
+.project-header-title {
     font-size: 2.7rem;
     color: black;
 }
 
-.weather-app-bg-container {
+.project-bg-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,13 +59,22 @@ body {
     height: 80vh;
 }
 
-.weather-app-bg {
+.project-bg {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 90%;
     height: 80vh;
     background: linear-gradient(to right, rgb(140, 140, 199), rgb(236, 188, 236));
+}
+
+.sb-project-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 80vh;
+    background: linear-gradient(to right, rgb(128, 184, 216), rgb(162, 223, 228), rgb(128, 184, 216));
 }
 
 .weatherapp-mockup {

@@ -30,7 +30,7 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-.header-title-sb{
+.header-title-sb {
     font-size: 3.5rem;
     background: linear-gradient(to right, #18216e, #3351d6);
     -webkit-background-clip: text;
@@ -68,7 +68,7 @@ body {
     background: linear-gradient(to right, rgb(140, 140, 199), rgb(236, 188, 236));
 }
 
-.sb-project-bg{
+.sb-project-bg {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,9 +143,51 @@ body {
 }
 
 @media (min-width: 724px) and (max-width: 1640px) {
+    .container {
+        height: auto;
+    }
 
-    .fa-custom {
+    .mobile-header-title {
+        height: 20vh;
+    }
+
+    .header-title,
+    .header-title-sb {
+        font-size: 3rem;
+    }
+
+    .project-header-title-container {
+        width: 40%;
+        padding-top: 150px;
+    }
+
+    .project-header-title {
         font-size: 2.2rem;
     }
+
+    .project-bg {
+        width: 85%;
+        height: 70vh;
+    }
+
+    .sb-project-bg {
+        width: 85%;
+        height: 70vh;
+    }
+
+    .weatherapp-mockup {
+        width: 50%;
+    }
+
+    .header-exp-container {
+        font-size: 1.2rem;
+        padding-top: 60px;
+        padding-left: 30px;
+    }
+
+    .text-exp{
+        font-size: 1rem;
+    }
+
 
 }

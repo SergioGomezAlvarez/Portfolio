@@ -65,6 +65,8 @@ body {
     align-items: center;
     width: 90%;
     height: 80vh;
+    border: 10px solid;
+    border-radius: 20px;
     background: linear-gradient(to right, rgb(140, 140, 199), rgb(236, 188, 236));
 }
 
@@ -74,6 +76,8 @@ body {
     align-items: center;
     width: 90%;
     height: 80vh;
+    border: 10px solid;
+    border-radius: 20px;
     background: linear-gradient(to right, rgb(128, 184, 216), rgb(162, 223, 228), rgb(128, 184, 216));
 }
 
@@ -168,6 +172,7 @@ body {
     .project-bg {
         width: 85%;
         height: 70vh;
+        
     }
 
     .sb-project-bg {

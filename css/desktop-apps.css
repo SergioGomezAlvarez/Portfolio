@@ -25,14 +25,14 @@ body {
 
 .header-title {
     font-size: 3.5rem;
-    background: linear-gradient(to right, #7ecad4, #eb43cf);
+    background: linear-gradient(to right, #151b1b, #0d2cb6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .header-title-sb {
     font-size: 3.5rem;
-    background: linear-gradient(to right, #18216e, #3351d6);
+    background: linear-gradient(to right, #e5e6ac, #1b1b1b);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -67,7 +67,7 @@ body {
     height: 80vh;
     border: 10px solid;
     border-radius: 20px;
-    background: linear-gradient(to right, rgb(140, 140, 199), rgb(236, 188, 236));
+    background: linear-gradient(to right, rgb(24, 24, 41), rgb(153, 200, 228), rgb(24, 24, 41));
 }
 
 .sb-project-bg {
@@ -78,7 +78,7 @@ body {
     height: 80vh;
     border: 10px solid;
     border-radius: 20px;
-    background: linear-gradient(to right, rgb(128, 184, 216), rgb(162, 223, 228), rgb(128, 184, 216));
+    background: linear-gradient(to right, rgb(224, 218, 181), rgb(214, 203, 138), rgb(224, 218, 181));
 }
 
 .weatherapp-mockup {

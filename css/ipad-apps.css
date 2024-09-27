@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Mulish", sans-serif;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    height: 200vh;
+    background-color: white;
+}
+
+.mobile-header-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+    background-color: white;
+}
+
+.header-title {
+    font-size: 3.5rem;
+    background: linear-gradient(to right, #6ed06a, #00b40c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header-title-sb {
+    font-size: 3.5rem;
+    background: linear-gradient(to right, #e5e6ac, #1b1b1b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.project-header-title-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30%;
+    height: 10vh;
+    padding-top: 190px;
+}
+
+.project-header-title {
+    font-size: 2.7rem;
+    color: black;
+}
+
+.project-bg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+}
+
+.project-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 80vh;
+    border: 10px solid;
+    border-radius: 20px;
+    background: linear-gradient(to right, rgb(161, 215, 163), rgb(25, 222, 32), rgb(161, 215, 163) );
+}
+
+.sb-project-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 80vh;
+    border: 10px solid;
+    border-radius: 20px;
+    background: linear-gradient(to right, rgb(224, 218, 181), rgb(214, 203, 138), rgb(224, 218, 181));
+}
+
+.weatherapp-mockup {
+    width: 60%;
+}
+
+.header-exp-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 80px;
+    padding-left: 50px;
+    height: 100px;
+    font-size: 1.5rem;
+    background-color: white;
+    color: black;
+}
+
+.header-exp {
+    color: black;
+}
+
+.app-exp-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+}
+
+.exp-container {
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    height: 30vh;
+    border-radius: 32px;
+    border: solid black 1px;
+    background-color: white;
+}
+
+.logo-exp-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.text-exp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.text-exp {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    background-color: #FAFAFA;
+    color: black;
+}
+
+.contact-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+}
+
+.back-to-menu {
+    text-decoration: none;
+    color: green;
+}
+
+@media (min-width: 724px) and (max-width: 1640px) {
+    .container {
+        height: auto;
+    }
+
+    .mobile-header-title {
+        height: 20vh;
+    }
+
+    .header-title,
+    .header-title-sb {
+        font-size: 3rem;
+    }
+
+    .project-header-title-container {
+        width: 40%;
+        padding-top: 150px;
+    }
+
+    .project-header-title {
+        font-size: 2.2rem;
+    }
+
+    .project-bg {
+        width: 85%;
+        height: 70vh;
+
+    }
+
+    .sb-project-bg {
+        width: 85%;
+        height: 70vh;
+    }
+
+    .weatherapp-mockup {
+        width: 50%;
+    }
+
+    .header-exp-container {
+        font-size: 1.2rem;
+        padding-top: 60px;
+        padding-left: 30px;
+    }
+
+    .text-exp {
+        font-size: 1rem;
+    }
+
+
+}

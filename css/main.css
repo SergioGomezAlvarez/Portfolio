@@ -143,12 +143,12 @@
     background-image: url('/images/sga-logo-black-bg-white-border.jpeg');
 }
 
-.card.work-tools-projects {
-    background-image: url('/images/setting-image.png');
+.card.my-work {
+    background-image: url('/images/SGA-cafe-pc-test.png');
 }
 
-.card.js-projects {
-    background-image: url('/images/gold-light.jpg');
+.card.work-tools-projects {
+    background-image: url('/images/setting-image.png');
 }
 
 .card.php-projects {

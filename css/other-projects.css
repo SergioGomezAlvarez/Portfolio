@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Mulish", sans-serif;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    height: 200vh;
+    background-color: white;
+}
+
+.mobile-header-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+    background-color: white;
+}
+
+.header-title {
+    font-size: 3.5rem;
+    background: linear-gradient(to right, #e2c001, #df1e05);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    background-color: #FAFAFA;
+    color: black;
+}
+
+.contact-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+}
+
+.back-to-menu {
+    text-decoration: none;
+    background: linear-gradient(to right, #e2c001, #df1e05);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 724px) and (max-width: 1640px) {
+    .container {
+        height: auto;
+    }
+
+    .mobile-header-title {
+        height: 20vh;
+    }
+
+    .header-title,
+    .header-title-sb {
+        font-size: 3rem;
+    }
+
+    .project-header-title-container {
+        width: 40%;
+        padding-top: 150px;
+    }
+
+    .project-header-title {
+        font-size: 2.2rem;
+    }
+
+    .project-bg {
+        width: 85%;
+        height: 70vh;
+
+    }
+
+    .sb-project-bg {
+        width: 85%;
+        height: 70vh;
+    }
+
+    .weatherapp-mockup {
+        width: 50%;
+    }
+
+    .header-exp-container {
+        font-size: 1.2rem;
+        padding-top: 60px;
+        padding-left: 30px;
+    }
+
+    .text-exp {
+        font-size: 1rem;
+    }
+
+
+}

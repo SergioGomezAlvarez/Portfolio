@@ -367,6 +367,7 @@ body {
     height: 20vh;
     color: #0075FF;
     font-size: 1.2rem;
+    text-decoration: none;
 }
 
 @media (max-width: 768px) {

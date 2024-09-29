@@ -151,12 +151,12 @@
     background-image: url('/images/setting-image.png');
 }
 
-.card.php-projects {
-    background-image: url('/images/purple-light.jpg');
+.card.w-o-w {
+    background-image: url('/images/lightbulb-gradient-bg.png');
 }
 
-.card.mobile-projects {
-    background-image: url('/images/mobile-dev-image.jpg');
+.card.contact {
+    background-image: url('/images/purple-light.jpg');
 }
 
 .carousel-buttons {
@@ -414,6 +414,7 @@
 .ad-info-text {
     font-size: 1.2rem;
     color: #0075FF;
+    text-decoration: none;
 }
 
 .mobile-weather-app {

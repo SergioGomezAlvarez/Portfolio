@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Sergio Gomez</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="css/contact.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-container">
+        <div class="header-text">
+          <div class="welcome-text-container">
+            <h1 class="welcome-text">Get in Touch</h1>
+          </div>
+        </div>
+        <div class="header-image">
+          <img src="images/sga-logo-black-bg-white-border.jpeg" class="SGA-sign-bg" />
+        </div>
+      </div>
+
+      <div class="contact-section">
+        <h2>Contact Me</h2>
+        <p class="contact-subtext">
+          I'd love to hear from you! Fill out the form below or send an email to
+          get in touch.
+        </p>
+        <form class="contact-form" action="submit_form.php" method="post">
+          <div class="input-group">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Your Name"
+              required
+            />
+          </div>
+          <div class="input-group">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email"
+              required
+            />
+          </div>
+          <div class="input-group">
+            <textarea
+              name="message"
+              id="message"
+              rows="6"
+              placeholder="Your Message"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="submit-button">Send Message</button>
+        </form>
+      </div>
+
+      <div class="footer-container">
+        <div class="c-text-container">
+          <h1>Copyright © 2024 SGA-Dev. All rights reserved.</h1>
+        </div>
+        <div class="footer-icons-container">
+          <a
+            href="https://github.com/SergioGomezAlvarez"
+            target="_blank"
+            aria-label="GitHub"
+          >
+            <i class="fa-brands fa-github fa-2xl" style="color: #000000"></i>
+          </a>
+
+          <a href="mailto:1202447@student.roc-nijmegen.nl" aria-label="Email">
+            <i class="fa-regular fa-envelope fa-2xl" style="color: #000000"></i>
+          </a>
+
+          <a
+            href="https://www.instagram.com/sergiogomez_a/"
+            target="_blank"
+            aria-label="Instagram"
+          >
+            <i class="fa-brands fa-instagram fa-2xl" style="color: #000000"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- <div class="footer-container">
+            <div class="c-text-container">
+                <h1>Copyright © 2024 SGA-Dev. All rights reserved.</h1>
+            </div>
+            <div class="footer-icons-container">
+                <a href="https://github.com/SergioGomezAlvarez" target="_blank" aria-label="GitHub">
+                    <i class="fa-brands fa-github fa-2xl" style="color: #000000;"></i>
+                </a>
+                <a href="mailto:1202447@student.roc-nijmegen.nl" aria-label="Email">
+                    <i class="fa-regular fa-envelope fa-2xl" style="color: #000000;"></i>
+                </a>
+                <a href="https://www.instagram.com/sergiogomez_a/" target="_blank" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram fa-2xl" style="color: #000000;"></i>
+                </a>
+            </div>
+        </div> -->
+    </div>
+  </body>
+</html>

@@ -140,11 +140,11 @@
 }
 
 .card.about-me {
-    background-image: url('/images/sga-logo-black-bg-white-border.jpeg');
+    background-image: url('images/sga-logo-black-bg-white-border.jpeg');
 }
 
 .card.my-work {
-    background-image: url('/images/SGA-cafe-pc-test.png');
+    background-image: url('images/SGA-cafe-pc-test.png');
 }
 
 .card.work-tools-projects {
@@ -152,11 +152,11 @@
 }
 
 .card.w-o-w {
-    background-image: url('/images/lightbulb-gradient-bg.png');
+    background-image: url('images/lightbulb-gradient-bg.png');
 }
 
 .card.contact {
-    background-image: url('/images/purple-light.jpg');
+    background-image: url('images/purple-light.jpg');
 }
 
 .carousel-buttons {

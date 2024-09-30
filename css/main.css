@@ -140,23 +140,23 @@
 }
 
 .card.about-me {
-    background-image: url('images/sga-logo-black-bg-white-border.jpeg');
+    background-image: url('/images/sga-logo-black-bg-white-border.jpeg');
+}
+
+.card.my-work {
+    background-image: url('/images/SGA-cafe-pc-test.png');
 }
 
 .card.work-tools-projects {
     background-image: url('images/setting-image.png');
 }
 
-.card.js-projects {
-    background-image: url('images/gold-light.jpg');
+.card.w-o-w {
+    background-image: url('/images/lightbulb-gradient-bg.png');
 }
 
-.card.php-projects {
-    background-image: url('images/purple-light.jpg');
-}
-
-.card.mobile-projects {
-    background-image: url('images/mobile-dev-image.jpg');
+.card.contact {
+    background-image: url('/images/purple-light.jpg');
 }
 
 .carousel-buttons {
@@ -414,6 +414,7 @@
 .ad-info-text {
     font-size: 1.2rem;
     color: #0075FF;
+    text-decoration: none;
 }
 
 .mobile-weather-app {

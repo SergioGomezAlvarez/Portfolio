@@ -140,23 +140,23 @@
 }
 
 .card.about-me {
-    background-image: url('/images/sga-logo-black-bg-white-border.jpeg');
+    background-image: url('images/sga-logo-black-bg-white-border.jpeg');
 }
 
 .card.work-tools-projects {
-    background-image: url('/images/setting-image.png');
+    background-image: url('images/setting-image.png');
 }
 
 .card.js-projects {
-    background-image: url('/images/gold-light.jpg');
+    background-image: url('images/gold-light.jpg');
 }
 
 .card.php-projects {
-    background-image: url('/images/purple-light.jpg');
+    background-image: url('images/purple-light.jpg');
 }
 
 .card.mobile-projects {
-    background-image: url('/images/mobile-dev-image.jpg');
+    background-image: url('images/mobile-dev-image.jpg');
 }
 
 .carousel-buttons {

@@ -552,9 +552,9 @@
     }
 }
 
+/* Phone Responsitivity */
 @media (max-width: 724px) {
 
-    /* Adjust container heights for smaller screens */
     .container,
     .header-container,
     .rep-container,
@@ -563,13 +563,11 @@
         height: auto;
     }
 
-    /* Center and reduce font size of welcome text */
     .welcome-text {
         font-size: 1.5rem;
         text-align: center;
     }
 
-    /* Make header image scale to screen width */
     .header-image,
     .SGA-sign-bg {
         width: 90%;
@@ -585,7 +583,6 @@
         justify-content: center;
     }
 
-    /* Stack cards vertically and reduce size */
     .rep-cards-container {
         display: flex;
         flex-direction: column;
@@ -599,12 +596,10 @@
         margin-bottom: 20px;
     }
 
-    /* Adjust buttons for smaller screens */
     .carousel-buttons {
         display: none;
     }
 
-    /* Reduce size of skill bars */
     .skills-container {
         width: 80%;
         flex-direction: row;
@@ -654,7 +649,7 @@
     .ad-app-main-container {
         flex-direction: column;
         align-items: center;
-        gap: 10px;
+        gap: 30px;
     }
 
     .ad-app-container {
@@ -674,7 +669,6 @@
         font-size: 0.8rem;
     }
 
-    /* Adjust mobile weather app image */
     .mobile-weather-app,
     .laptop-plugz {
         width: 90%;
@@ -686,7 +680,6 @@
         height: auto;
     }
 
-    /* Contact container adjusts for small screens */
     .contact-container {
         flex-direction: column;
     }
@@ -696,7 +689,6 @@
         margin-bottom: 20px;
     }
 
-    /* Footer icons responsive */
     .footer-icons-container {
         gap: 20px;
     }

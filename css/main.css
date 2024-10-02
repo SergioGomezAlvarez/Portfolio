@@ -553,8 +553,13 @@
 }
 
 @media (max-width: 724px) {
+
     /* Adjust container heights for smaller screens */
-    .container, .header-container, .rep-container, .tools-container, .devices-container {
+    .container,
+    .header-container,
+    .rep-container,
+    .tools-container,
+    .devices-container {
         height: auto;
     }
 
@@ -565,19 +570,21 @@
     }
 
     /* Make header image scale to screen width */
-    .header-image, .SGA-sign-bg {
+    .header-image,
+    .SGA-sign-bg {
         width: 90%;
         height: auto;
     }
 
-    .header-title{
-        font-size: 1.6rem;
+    .header-title {
+        font-size: 1.2rem;
     }
 
-    .header-title-container{
+    .header-title-container {
         width: 100%;
         justify-content: center;
     }
+
     /* Stack cards vertically and reduce size */
     .rep-cards-container {
         display: flex;
@@ -612,22 +619,45 @@
         height: 10%;
     }
 
-    .app-exp-container{
-        flex-direction: row;
+    .fa-custom {
+        font-size: 1rem;
     }
 
-    .text-exp{
-        font-size: 0.7rem;
+    .app-exp-container {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
     }
 
-    /* Stack application description containers vertically */
+    .exp-container {
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .logo-exp-container {
+        height: auto;
+        justify-content: center;
+    }
+
+    .text-exp-container {
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .text-exp {
+        font-size: 1rem;
+    }
+
     .ad-app-main-container {
         flex-direction: column;
         align-items: center;
         gap: 10px;
     }
 
-    .ad-app-container{
+    .ad-app-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -635,20 +665,23 @@
         width: 80%;
     }
 
-    .ad-header-text{
+    .ad-header-text {
         font-size: 1.2rem;
     }
 
-    .ad-desc-text, .ad-info-text{
+    .ad-desc-text,
+    .ad-info-text {
         font-size: 0.8rem;
     }
+
     /* Adjust mobile weather app image */
-    .mobile-weather-app, .laptop-plugz {
+    .mobile-weather-app,
+    .laptop-plugz {
         width: 90%;
         height: auto;
     }
 
-    .crypto-laptop{
+    .crypto-laptop {
         width: 100%;
         height: auto;
     }
@@ -668,8 +701,7 @@
         gap: 20px;
     }
 
-    .c-text-container{
+    .c-text-container {
         font-size: 0.4rem;
     }
 }
-

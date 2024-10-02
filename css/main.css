@@ -551,3 +551,125 @@
         gap: 30px;
     }
 }
+
+@media (max-width: 724px) {
+    /* Adjust container heights for smaller screens */
+    .container, .header-container, .rep-container, .tools-container, .devices-container {
+        height: auto;
+    }
+
+    /* Center and reduce font size of welcome text */
+    .welcome-text {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    /* Make header image scale to screen width */
+    .header-image, .SGA-sign-bg {
+        width: 90%;
+        height: auto;
+    }
+
+    .header-title{
+        font-size: 1.6rem;
+    }
+
+    .header-title-container{
+        width: 100%;
+        justify-content: center;
+    }
+    /* Stack cards vertically and reduce size */
+    .rep-cards-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .card {
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    /* Adjust buttons for smaller screens */
+    .carousel-buttons {
+        display: none;
+    }
+
+    /* Reduce size of skill bars */
+    .skills-container {
+        width: 80%;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .skill-bar {
+        width: 80%;
+    }
+
+    .react-native-image {
+        height: 10%;
+    }
+
+    .app-exp-container{
+        flex-direction: row;
+    }
+
+    .text-exp{
+        font-size: 0.7rem;
+    }
+
+    /* Stack application description containers vertically */
+    .ad-app-main-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .ad-app-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 30vh;
+        width: 80%;
+    }
+
+    .ad-header-text{
+        font-size: 1.2rem;
+    }
+
+    .ad-desc-text, .ad-info-text{
+        font-size: 0.8rem;
+    }
+    /* Adjust mobile weather app image */
+    .mobile-weather-app, .laptop-plugz {
+        width: 90%;
+        height: auto;
+    }
+
+    .crypto-laptop{
+        width: 100%;
+        height: auto;
+    }
+
+    /* Contact container adjusts for small screens */
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-info-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Footer icons responsive */
+    .footer-icons-container {
+        gap: 20px;
+    }
+
+    .c-text-container{
+        font-size: 0.4rem;
+    }
+}
+

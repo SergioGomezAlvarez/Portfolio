@@ -516,7 +516,7 @@
     }
 
     .tools-container {
-        height: 170vh;
+        height: 170vh; 
     }
 
     .skill-bar {
@@ -558,7 +558,6 @@
     .container,
     .header-container,
     .rep-container,
-    .tools-container,
     .devices-container {
         height: auto;
     }
@@ -598,6 +597,13 @@
 
     .carousel-buttons {
         display: none;
+    }
+
+    .tools-container{
+        height: auto;
+        padding: 20px 10px;
+        background-color: #F5F5FF;
+        text-align: center; 
     }
 
     .skills-container {

@@ -3,6 +3,27 @@
     margin: 0;
 }
 
+.navbar {
+    background-color: #353535;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 600;
+}
+
+.navbar a:hover {
+    color: #007BFF;
+}
+
+
+
 .container {
     width: 100%;
     height: 120vh;
@@ -255,7 +276,8 @@
 }
 
 .skill-bar {
-    width: 0; /* Start breedte op 0 */
+    width: 0;
+    /* Start breedte op 0 */
     transition: width 2s ease-in-out;
     width: 40%;
     margin: 10px 0;
@@ -490,13 +512,19 @@
 
 /* Voeg dit toe aan je CSS */
 
-.card, .exp-container, .ad-app-container, .contact-container {
+.card,
+.exp-container,
+.ad-app-container,
+.contact-container {
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 1s ease-out, transform 1s ease-out;
 }
 
-.card.show, .exp-container.show, .ad-app-container.show, .contact-container.show {
+.card.show,
+.exp-container.show,
+.ad-app-container.show,
+.contact-container.show {
     opacity: 1;
     transform: translateY(0);
 }
@@ -532,7 +560,7 @@
     }
 
     .tools-container {
-        height: 170vh; 
+        height: 170vh;
     }
 
     .skill-bar {
@@ -615,11 +643,11 @@
         display: none;
     }
 
-    .tools-container{
+    .tools-container {
         height: auto;
         padding: 20px 10px;
         background-color: #F5F5FF;
-        text-align: center; 
+        text-align: center;
     }
 
     .skills-container {

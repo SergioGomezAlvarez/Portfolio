@@ -531,7 +531,6 @@
     transform: translateY(0);
 }
 
-
 @media (min-width: 724px) and (max-width: 1440px) {
 
     .card {

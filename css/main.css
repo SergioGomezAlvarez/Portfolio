@@ -3,6 +3,29 @@
     margin: 0;
 }
 
+.navbar {
+    background-color: #000000;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 600;
+}
+
+.navbar a:hover {
+    color: #007BFF;
+}
+
 .container {
     width: 100%;
     height: 120vh;
@@ -140,23 +163,23 @@
 }
 
 .card.about-me {
-    background-image: url('/images/sga-logo-black-bg-white-border.jpeg');
+    background-image: url('../images/sga-logo-black-bg-white-border.jpeg');
 }
 
 .card.my-work {
-    background-image: url('/images/SGA-cafe-pc-test.png');
+    background-image: url('../images/SGA-cafe-pc-test.png');
 }
 
 .card.work-tools-projects {
-    background-image: url('/images/setting-image.png');
+    background-image: url('../images/setting-image.png');
 }
 
 .card.w-o-w {
-    background-image: url('/images/lightbulb-gradient-bg.png');
+    background-image: url('../images/lightbulb-gradient-bg.png');
 }
 
 .card.contact {
-    background-image: url('/images/purple-light.jpg');
+    background-image: url('../images/purple-light.jpg');
 }
 
 .carousel-buttons {
@@ -255,6 +278,9 @@
 }
 
 .skill-bar {
+    width: 0;
+    /* Start breedte op 0 */
+    transition: width 2s ease-in-out;
     width: 40%;
     margin: 10px 0;
     padding: 10px;
@@ -486,6 +512,25 @@
     gap: 40px;
 }
 
+/* Voeg dit toe aan je CSS */
+
+.card,
+.exp-container,
+.ad-app-container,
+.contact-container {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.card.show,
+.exp-container.show,
+.ad-app-container.show,
+.contact-container.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 @media (min-width: 724px) and (max-width: 1440px) {
 
     .card {
@@ -549,5 +594,157 @@
 
     .contact-info-container {
         gap: 30px;
+    }
+}
+
+/* Phone Responsitivity */
+@media (max-width: 724px) {
+
+    .container,
+    .header-container,
+    .rep-container,
+    .devices-container {
+        height: auto;
+    }
+
+    .welcome-text {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .header-image,
+    .SGA-sign-bg {
+        width: 90%;
+        height: auto;
+    }
+
+    .header-title {
+        font-size: 1.2rem;
+    }
+
+    .header-title-container {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .rep-cards-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .card {
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .carousel-buttons {
+        display: none;
+    }
+
+    .tools-container {
+        height: auto;
+        padding: 20px 10px;
+        background-color: #F5F5FF;
+        text-align: center;
+    }
+
+    .skills-container {
+        width: 80%;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .skill-bar {
+        width: 80%;
+    }
+
+    .react-native-image {
+        height: 10%;
+    }
+
+    .fa-custom {
+        font-size: 1rem;
+    }
+
+    .app-exp-container {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .exp-container {
+        width: 80%;
+        height: auto;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .logo-exp-container {
+        height: auto;
+        justify-content: center;
+    }
+
+    .text-exp-container {
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .text-exp {
+        font-size: 1rem;
+    }
+
+    .ad-app-main-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .ad-app-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 30vh;
+        width: 80%;
+    }
+
+    .ad-header-text {
+        font-size: 1.2rem;
+    }
+
+    .ad-desc-text,
+    .ad-info-text {
+        font-size: 0.8rem;
+    }
+
+    .mobile-weather-app,
+    .laptop-plugz {
+        width: 90%;
+        height: auto;
+    }
+
+    .crypto-laptop {
+        width: 100%;
+        height: auto;
+    }
+
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-info-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer-icons-container {
+        gap: 20px;
+    }
+
+    .c-text-container {
+        font-size: 0.4rem;
     }
 }

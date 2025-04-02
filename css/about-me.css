@@ -12,7 +12,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* Zorgt ervoor dat de inhoud verdeeld wordt tussen top en bottom */
     min-height: 100vh;
     /* background-color: black; */
     text-align: left;
@@ -118,23 +117,23 @@ body {
 }
 
 .card.about-me {
-    background-image: url('/images/sga-book.png');
+    background-image: url('../images/sga-book.png');
 }
 
 .card.work-tools-projects {
-    background-image: url('/images/lightbulb-gradient-bg.png');
+    background-image: url('../images/lightbulb-gradient-bg.png');
 }
 
 .card.js-projects {
-    background-image: url('/images/red-black-belt-gradient.png');
+    background-image: url('../images/red-black-belt-gradient.png');
 }
 
 .card.php-projects {
-    background-image: url('/images/chart-gradient-bg.png');
+    background-image: url('../images/chart-gradient-bg.png');
 }
 
 .card.mobile-projects {
-    background-image: url('/images/test-picture.jpg');
+    background-image: url('../images/test-picture.jpg');
 }
 
 .carousel-buttons {
@@ -321,7 +320,7 @@ body {
     color: black;
 }
 
-.contact-container{
+.contact-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -331,7 +330,7 @@ body {
     background-color: #FFFFFF;
 }
 
-.contact-text-container{
+.contact-text-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -340,7 +339,7 @@ body {
     height: 20vh;
 }
 
-.header-contact-text{
+.header-contact-text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -349,17 +348,17 @@ body {
     color: #1a1a1a;
 }
 
-.info-contact-text{
+.info-contact-text {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 20vh;
-    color: #515151; 
+    color: #515151;
     font-size: 1rem;
 }
 
-.learn-more-contact-text{
+.learn-more-contact-text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -369,6 +368,24 @@ body {
     font-size: 1.2rem;
     text-decoration: none;
 }
+
+.card,
+.exp-container,
+.ad-app-container,
+.contact-container {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.card.show,
+.exp-container.show,
+.ad-app-container.show,
+.contact-container.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 
 @media (max-width: 768px) {
     .career-grid {

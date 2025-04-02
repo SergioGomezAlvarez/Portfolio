@@ -6,7 +6,11 @@
     <title>SGA | Contact</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="shortcut icon" type="image/x-icon" href="./images/sga-logo-black-bg-white-border.jpeg" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="./images/sga-logo-black-bg-white-border.jpeg"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
       rel="stylesheet"
@@ -19,6 +23,20 @@
   </head>
   <body>
     <div class="container">
+      <nav class="navbar">
+        <div class="menu-toggle" id="mobile-menu">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-list" id="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about-me.html">About Me</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="close-menu" id="close-menu">
+            <i class="fas fa-times"></i>
+          </li>
+        </ul>
+      </nav>
       <h1 class="learn-more-contact-text">
         <a class="back-to-menu" href="work.html">Back</a>
       </h1>
@@ -29,7 +47,10 @@
           </div>
         </div>
         <div class="header-image">
-          <img src="images/sga-logo-black-bg-white-border.jpeg" class="SGA-sign-bg" />
+          <img
+            src="images/sga-logo-black-bg-white-border.jpeg"
+            class="SGA-sign-bg"
+          />
         </div>
       </div>
 
@@ -41,9 +62,17 @@
         </p>
 
         <!-- Updated form to work with Web3Forms -->
-        <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+        <form
+          class="contact-form"
+          action="https://api.web3forms.com/submit"
+          method="POST"
+        >
           <!-- Hidden input for the Web3Forms Access Key -->
-          <input type="hidden" name="access_key" value="8fab22b8-efef-40ed-9e61-757a463e2092" />
+          <input
+            type="hidden"
+            name="access_key"
+            value="8fab22b8-efef-40ed-9e61-757a463e2092"
+          />
 
           <div class="input-group">
             <input
@@ -73,16 +102,16 @@
             ></textarea>
           </div>
 
-          <!-- Honeypot Spam Protection (hidden from users) -->
-          <input type="checkbox" name="botcheck" class="hidden" style="display: none;" />
-
-          <!-- Optional: Redirect after form submission -->
-          <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html" /> -->
+          <input
+            type="checkbox"
+            name="botcheck"
+            class="hidden"
+            style="display: none"
+          />
 
           <button type="submit" class="submit-button">Send Message</button>
         </form>
       </div>
-      
 
       <div class="footer-container">
         <div class="c-text-container">
@@ -112,5 +141,6 @@
       </div>
     </div>
     <script src="script.js"></script>
+    <script src="nav.js"></script>
   </body>
 </html>

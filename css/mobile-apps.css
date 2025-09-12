@@ -85,7 +85,7 @@ body {
 
 .header-title {
     font-size: 3.5rem;
-    background: linear-gradient(to right, #7ecad4, #eb43cf);
+    background: linear-gradient(to right, #0a1eb5, #eb43cf);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -93,6 +93,13 @@ body {
 .header-title-sb {
     font-size: 3.5rem;
     background: linear-gradient(to right, #18216e, #3351d6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header-title-se {
+    font-size: 3.5rem;
+    background: linear-gradient(to right, #4c186e, #000000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -141,8 +148,23 @@ body {
     background: linear-gradient(to right, rgb(128, 184, 216), rgb(162, 223, 228), rgb(128, 184, 216));
 }
 
+.se-project-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 80vh;
+    border: 10px solid;
+    border-radius: 20px;
+    background: linear-gradient(to right, rgb(184, 133, 226), rgb(60, 7, 73), rgb(185, 19, 118));
+}
+
 .weatherapp-mockup {
     width: 60%;
+}
+
+.festivalapp-mockup {
+    width: 90%;
 }
 
 .header-exp-container {
@@ -241,7 +263,8 @@ body {
     }
 
     .header-title,
-    .header-title-sb {
+    .header-title-sb,
+    .header-title-se {
         font-size: 3rem;
     }
 

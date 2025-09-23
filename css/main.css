@@ -112,6 +112,10 @@
 
 .SGA-sign-bg {
     width: 80%;
+    border-radius: 16px;
+    /* Kleine border radius */
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.18);
+    /* Drop shadow */
 }
 
 .rep-container {

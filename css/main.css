@@ -169,7 +169,7 @@
     flex-direction: column;
     justify-content: flex-end;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
     background-size: cover;
     background-position: center;
@@ -187,7 +187,6 @@
     transform: translateY(0);
 }
 
-/* Hover effect for scaling the card */
 .card:hover {
     transform: scale(1.05);
     cursor: pointer;
@@ -208,7 +207,7 @@
 }
 
 .card.my-work {
-    background-image: url('../images/SGA-cafe-pc-test.png');
+    background-image: url('../images/my-work-mockup.png');
 }
 
 .card.work-tools-projects {

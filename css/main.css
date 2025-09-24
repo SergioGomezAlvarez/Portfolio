@@ -91,6 +91,10 @@
     height: 15vh;
 }
 
+.grey-text {
+    color: #515151;
+}
+
 .welcome-text-container {
     display: flex;
     justify-content: center;
@@ -211,7 +215,7 @@
 }
 
 .card.work-tools-projects {
-    background-image: url('../images/setting-image.png');
+    background-image: url('../images/SGA-dev-logo.png');
 }
 
 .card.w-o-w {

@@ -3,6 +3,14 @@
     margin: 0;
 }
 
+.red {
+    background: linear-gradient(45deg, #000000, #000000, #000000, #FF512F);
+}
+
+.yellow {
+    background: linear-gradient(45deg, #000000, #000000, #000000, #FFFF00);
+}
+
 .navbar {
     position: fixed;
     font-family: "Mulish", sans-serif;
@@ -279,14 +287,13 @@
     margin-bottom: 30px;
 }
 
-.card-gradient-red {
+.card-gradient {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 30%;
     height: 40vh;
-    background: linear-gradient(45deg, #000000, #000000, #000000, #FF512F);
     border-radius: 15px;
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
 }
@@ -302,38 +309,6 @@
     font-size: 1rem;
     text-align: center;
     padding: 0 10px;
-}
-
-.skills-container {
-    display: flex;
-    justify-content: space-between;
-    width: 65%;
-    margin: 0 auto;
-    height: auto;
-}
-
-.skills-split-container-lan {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-}
-
-.skills-split-container-frame {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-}
-
-.framework-icons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-}
-
-.react-native-image {
-    height: 10%;
 }
 
 .app-exp-container {
@@ -647,16 +622,6 @@
         padding: 20px 10px;
         background-color: #F5F5FF;
         text-align: center;
-    }
-
-    .skills-container {
-        width: 80%;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-    .react-native-image {
-        height: 10%;
     }
 
     .fa-custom {

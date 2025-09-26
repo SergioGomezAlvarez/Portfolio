@@ -386,8 +386,9 @@
     align-items: center;
     width: 35%;
     height: 50vh;
-    border-radius: 32px;
+    border-radius: 18px;
     background: #F5F5FF;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.18);
 }
 
 .ad-text-container {
@@ -445,8 +446,9 @@
     align-items: center;
     width: 70%;
     height: 50vh;
-    border-radius: 32px;
+    border-radius: 18px;
     background: #F5F5FF;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.18);
 }
 
 .contact-info-container {

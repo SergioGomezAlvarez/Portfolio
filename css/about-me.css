@@ -229,9 +229,9 @@ body {
     flex-direction: column;
     width: 22%;
     height: 30vh;
-    border-radius: 32px;
-    border: solid black 1px;
+    border-radius: 18px;
     background-color: white;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.18);
 }
 
 .logo-exp-container {
